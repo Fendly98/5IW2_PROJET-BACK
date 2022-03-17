@@ -1,2 +1,2 @@
-release: ./bin/deployment.sh
-web: ./vendor/bin/heroku-php-apache2 ./public/
+release: cd api ./bin/deployment.sh
+web: cd api vendor/bin/heroku-php-apache2  cd api public/
